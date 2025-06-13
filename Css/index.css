@@ -208,15 +208,14 @@ header p{
 }
 #projects h1{
     display: flex;
-    margin: 1rem;
-    padding: 1rem;
+    margin: 0 1rem;
+    padding:10px 1rem;
     text-decoration: underline;
     text-decoration-color: blue;
     text-decoration-style:solid;
 }
 #projects h3{
     display: flex;
-    margin: 1rem;
     padding: 1rem;
     text-decoration: underline;
     text-decoration-color: blue;
@@ -224,8 +223,7 @@ header p{
 }
 #projects p{
     display: flex;
-    margin: .2rem;
-    padding: 1rem;
+    padding: .5rem;
 }
 #projects a{
     text-decoration: none;
