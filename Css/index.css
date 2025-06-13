@@ -1,0 +1,300 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: cursive;
+    line-height: 1.6;
+    color: gray;
+    background-color: white;
+}
+.container{
+    display: flex;
+}
+header{
+    border: 2px solid black;
+    width: 25%;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+header img{
+    display: flex;
+    border-radius: 125px;
+    justify-self: center;
+    margin-top: 3.5rem;
+    width: 10vw;
+    height: 25vh;
+}
+header h3{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+}
+header p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li a{
+    display: flex;
+    justify-content: center;
+    font-size:25px;
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    font-weight: 900;
+    margin: 0rem 1rem;
+    padding: 1rem;
+    width: 10vw;
+    /* background-color: black; */
+}
+.navbar li a:hover{
+    color:blue;
+}
+#home .bi{
+    display: flex;
+    justify-self: start;
+    background-image: url('../Img/p.jpg.jpg');
+    background-position: -61px -206px;
+    border: 2px solid black;
+    width: 74.3vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin-left: 23.7rem;
+}
+#home .ai{
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    margin: auto;
+    margin-left: 40rem;
+    padding: 2px 3px;
+}
+#home h1:hover{
+    font-size: larger;
+}
+#about .bi{
+    display: flex;
+    justify-self: start;
+    color: black;
+    background-color:bisque;
+    border: 2px solid black;
+    width: 74.3vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin-left: 23.7rem;
+}
+#about h1{
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-style:solid;
+}
+#about p{
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+}
+#about table{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 1rem;
+}
+#a1 td{
+    margin: 1rem;
+    padding: 1rem 25px;
+}
+#a2 td{
+    margin: 1rem;
+    padding: 1rem 25px;
+}
+#a3 td{
+    margin: 1rem;
+    padding: 1rem 22.8px;
+}
+#a4 td{
+    margin: 1rem;
+    padding: 1rem 17px;
+}
+#a5 td{
+    margin: 1rem;
+    padding: 1rem 21px;
+}
+#skill .bi{
+    display: flex;
+    justify-self: start;
+    color: black;
+    background-color: bisque;
+    border: 2px solid black;
+    width: 74.3vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin-left: 23.7rem;
+}
+#skill h1{
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-style:solid;
+}
+#skill table{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 1rem;
+}
+#b1 td{
+    margin: 1rem;
+    padding: 1rem 25px;
+}
+#b2 td{
+    margin: 1rem;
+    padding: 1rem 25px;
+}
+#b3 td{
+    margin: 1rem;
+    padding: 1rem 25px;
+}
+#b4 td{
+    margin: 1rem;
+    padding: 1rem 25px;
+}
+#b5 td{
+    margin: 1rem;
+    padding: 1rem 25px;
+}
+#b6 td{
+    margin: 1rem;
+    padding: 1rem 25px;
+}
+#b7 td{
+    margin: 1rem;
+    padding: 1rem 25px;
+}
+#projects .bi{
+    display: flex;
+    justify-self: start;
+    color: black;
+    background-color: bisque;
+    border: 2px solid black;
+    width: 74.3vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin-left: 23.7rem;
+}
+#projects h1{
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-style:solid;
+}
+#projects h3{
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-style:solid;
+}
+#projects p{
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+}
+#projects a{
+    text-decoration: none;
+    display: flex;
+    width: 10vw;
+    justify-content: center;
+    background-color: rgba(0, 255, 255, 0.147);
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 4rem;
+    padding: .2rem;
+}
+#contact .bi{
+    display: flex;
+    justify-self: start;
+    color: black;
+    background-color: bisque;
+    border: 2px solid black;
+    width: 74.3vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin-left: 23.7rem;
+}
+#contact h1{
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-style:solid;
+}
+#contact table{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 1rem;
+}
+#c1 td{
+    margin: 1rem;
+    padding: 1rem 25px;
+}
+#c2 td{
+    margin: 1rem;
+    padding: 1rem 25px;
+}
+#c3 td{
+    margin: 1rem;
+    padding: 1rem 25px;
+}
+#c4 td{
+    margin: 1rem;
+    padding: 1rem 25px;
+}
+#contact a{
+    text-decoration: none;
+    color: black;
+}
+#contact a:hover{
+    color: blue;
+}
+footer{
+    text-align: center;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
